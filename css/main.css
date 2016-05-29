@@ -1,0 +1,514 @@
+body {
+  margin: 0 auto;
+  font: 12px Lato, sans-serif;
+}
+.wepper {
+  display: block;
+  width: 1020px;
+  margin: 0 auto;
+}
+#header {
+
+  background: #303441;
+  border-bottom: 5px solid #373b4a;
+}
+#logo {
+  width: 115px;
+  height: 20px;
+  float: left;
+  margin: 33px 0 0 40px;
+}
+#menu {
+  width: 1020px;
+  height: 95px;
+}
+#menu ul {
+  margin: 0 0 0 450px;
+  padding: 40px 0 0 149px;
+}
+#menu ul li {
+  margin-right: 30px;
+  float: left;
+  color: #494e62;
+}
+#menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font: bold 12px Arial;
+}
+#menu ul li a:hover {
+  color: red;
+}
+.home {
+  list-style-type: none;
+}
+#slider {
+  width: 100%;
+  height: 606px;
+  background: #eb5055;
+  border-bottom: 5px solid #ea676b;
+}
+.strelka {
+  float: left;
+  padding: 280px 0 0 42px;
+  width: 16px;
+  height: 27px;
+}
+.mobila2 {
+  position: absolute;
+  padding: 50px 0 0 113px;
+  width: 240px;
+  height: 483px;
+}
+.mobila1 {
+  position: absolute;
+  padding: 170px 0 0 423px;
+  width: 484px;
+  height: 240px;
+}
+.strelka2 {
+  float: right;
+  padding: 279px 39px 0 0;
+  width: 16px;
+  height: 27px;
+}
+#conten1 {
+  margin: 0 auto;
+  width: 1020px;
+  height: 501px;
+}
+.contentfon {
+  width: 100%;
+  height: 501px;
+  background: #f2f2f2;
+  border-bottom: 7px solid #ffffff;
+}
+@font-face {
+  font-family: Lato;
+  src: url(./9625.ttf)
+}
+#conten1 h1 {
+  line-height: 1.5;
+  font: 18px Lato;
+  color: #767e9e;
+  padding: 12px 0 0 1px;
+}
+.h11 {
+  padding: 58px 0 0 40px;
+}
+.foto1 {
+  float: left;
+  width: 305px;
+  height: 95px;
+  position: absolute;
+  padding: 46px 0 0 42px;
+}
+.text1 {
+  position: absolute;
+  margin: 0;
+  color: #767e9e;
+  padding: 43px 0 0 116px;
+  width: 220px;
+  height: 95px;
+}
+.text2 {
+  margin: 0;
+  position: absolute;
+  padding: 1px 0 0 5px;
+  font-size: 18px;
+}
+.text3 {
+  padding: 25px 0 0 5px;
+  font: 12px Lato;
+}
+#foto2 {
+ position: absolute;
+ width: 59px;
+ height: 59px;
+ padding: 47px 0 0 361px;
+}
+#text2 {
+  padding: 44px 0 0 440px;
+  position: absolute;
+  color: #767e9e;
+  width: 220px;
+  height: 100px;
+}
+#text2 h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+#text2 h4 {
+  margin: 0;
+  padding: 13px 0 0 0;
+  font: 12px Lato;
+}
+#foto3 {
+  padding: 47px 0 0 681px;
+  position: absolute;
+  width: 59px;
+  height: 59px;
+}
+#text3 {
+  padding: 44px 0 0 763px;
+  position: absolute;
+  color: #767e9e;
+  width: 220px;
+  height: 100px;
+}
+#text3 h5 {
+  margin: 0;
+  font-size: 18px;
+}
+#text3 h6 {
+  margin: 0;
+  padding: 16px 0 0 0;
+  font: 12px Lato;
+}
+#foto4 {
+  position: absolute;
+  padding: 171px 0 0 41px; 
+  width: 59px;
+  height: 59px;
+}
+#text4 {
+  position: absolute;
+  padding: 154px 0 0 118px;
+  color: #767e9e;
+  width: 220px;
+  height: 100px;
+}
+#text4 h1 {
+  padding: 13px 0 0 4px;
+  margin: 0;
+  font: bold 18px Lato;
+}
+#text4 h2 {
+  margin: 0;
+  padding: 14px 0 0 0;
+  font: 12px Lato;
+}
+#foto5 {
+  position: absolute;
+  padding: 171px 0 0 362px;
+  width: 59px;
+  height: 59px;
+}
+#text5 {
+  position: absolute;
+  padding: 168px 0 0 440px;
+  color: #767e9e;
+  width: 220px;
+  height: 100px;
+}
+#text5 h1 {
+  padding: 0;
+  margin: 0;
+  font: bold 18px Lato;
+}
+#text5 h2 {
+  margin: 0;
+  padding: 17px 0 0 0;
+  font: 12px Lato;
+}
+#foto6 {
+  position: absolute;
+  padding: 170px 0 0 682px;
+  width: 59px;
+  height: 59px;
+}
+#text6 {
+  position: absolute;
+  padding: 155px 0 0 762px;
+  color: #767e9e;
+  width: 220px;
+  height: 100px;
+}
+#text6 h1 {
+  margin: 0;
+  font: bold 18px Lato;
+}
+#text6 h2 {
+  margin: 0;
+  padding: 11px 0 0 0;
+  font: 12px Lato;
+}
+#portfolio {
+  margin: 0 auto;
+  color: #666d89;
+  width: 1020px;
+  height: 870px;
+}
+.porfoliofon {
+  width: 100%;
+  height: 870px;
+  background: #303441;
+  border-bottom: 5px solid #373b4a;
+}
+#portfolio h1 {
+  margin: 0;
+  padding: 49px 0 0 43px;
+  font: bold 30px Lato;
+}
+#portfolio h2 {
+  margin: 0;
+  padding: 23px 0 0 41px;
+  font: 18px Lato;
+}
+#portfolio ul {
+  display: block;
+  list-style-type: none;
+}
+#portfolio ul li a {
+  color: #666d89;
+  border: 2px solid #666d89;
+  padding: 4px 9px;
+  border-radius: 5px;
+  margin-right: 10px;
+  float: left;
+  text-decoration: none;
+}
+#portfolio ul li a:hover {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+#porffoto {
+  width: 955px;
+  height: 600px;
+  float: left;
+  display: inline-block;
+  margin: 23px 0 0 21px;
+  padding-left: 20px;
+}
+#porffoto img {
+  width: 220px;
+  height: 180px;
+  padding-right: 16px;
+  padding-bottom: 20px;
+}
+#about {
+  margin: 0 auto;
+  color: #666d89;
+  width: 1020px;
+  height: 734px;
+  font: 18px Lato;
+}
+.aboutfon {
+  width: 100%;
+  height: 734px;
+  background: #f2f2f2;
+  border-bottom: 5px solid #ffffff;
+}
+#about h1 {
+  padding: 48px 0 0 42px;
+  margin: 0;
+  font: bold 30px Lato;
+}
+#about h2 {
+  padding: 24px 0 0 41px;
+  margin: 0;
+  font: 18px Lato;
+}
+#portret {
+  margin: 55px 0 0 42px;
+}
+#about img {
+  padding-right: 15px;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+#textport {
+  display: inline-block;
+  margin: 9px 0 0 39px;
+  width: 300px;
+  height: 160px;
+}
+#textport h1 {
+  padding: 3px 0 0 2px;
+  margin: 0;
+  font: bold 18px Lato;
+}
+#textport h2 {
+  padding: 11px 0 0 0;
+  margin: 0;
+  font: 12px Lato;
+}
+#textport img {
+  padding: 32px 0 0 3px;
+  margin: 0;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+#textport1 {
+  display: inline-block;
+  margin: 0 0 0 15px;
+  width: 300px;
+  height: 160px;
+}
+#textport1 h1 {
+  padding: 3px 0 0 2px;
+  margin: 0;
+  font: bold 18px Lato;
+}
+#textport1 h2 {
+  padding: 11px 0 0 0;
+  margin: 0;
+  font: 12px Lato;
+}
+#textport1 img {
+  padding: 32px 0 0 3px;
+  margin: 0;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+#textport2 {
+  display: inline-block;
+  margin: 0 0 0 15px;
+  width: 300px;
+  height: 160px;
+}
+#textport2 h1 {
+  padding: 3px 0 0 2px;
+  margin: 0;
+  font: bold 18px Lato;
+}
+#textport2 h2 {
+  padding: 11px 0 0 0;
+  margin: 0;
+  font: 12px Lato;
+}
+#textport2 img {
+  padding: 32px 0 0 3px;
+  margin: 0;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+#get {
+  color: #f0d8d9;
+  margin: 0 auto;
+  width: 1020px;
+  height: 654px;
+}
+.getfon {
+  width: 100%;
+  height: 654px;
+  background: #eb5055;
+  border-bottom: 5px solid #ea676b;
+}
+#get h1 {
+  padding: 48px 0 0 42px;
+  font: bold 30px Lato;
+  margin: 0;
+}
+#get h2 {
+  padding: 24px 0 0 42px;
+  font: 18px Lato;
+  margin: 0;
+}
+#area {
+  width: 625px;
+  display: inline-block;
+  margin: 50px 0 0 40px;
+}
+#area input,
+#area textarea {
+  display: inline-block;
+  width: calc(100% - 30px);
+  height: 38px;
+  line-height: 38px;
+  padding: 0 15px;
+  outline: none;
+  border: 0;
+  border-radius: 4px;
+  resize: none;
+  margin: 0 0 15px 0;
+  background: #ca4549;
+}
+#area textarea {
+  height: auto;
+  min-height: 200px;
+}
+#contact {
+  float: right;
+  padding: 54px 31px 0 0;
+  margin: 0;
+  display: inline-block;
+  width: 307px;
+  height: 207px;
+}
+#contact img {
+  position: absolute;
+  float: left;
+  margin: 0;
+}
+#contact h1 {
+  padding: 0 0 0 0;
+  font: bold 18px Lato;
+}
+#contact h2 {
+  padding: 10px 0 0 0;
+  font: 12px Lato;
+}
+#contact h3 {
+  position: absolute;
+  display: inline-block;
+  width: 150px;
+  margin: 0;
+  padding: 48px 0 0 21px;
+  font: 12px Lato;
+}
+#contact h4 {
+  position: absolute;
+  display: inline-block;
+  width: 150px;
+  margin: 0;
+  padding: 69px 0 0 19px;
+  font: 12px Lato;
+}
+#contact h5 {
+  position: absolute;
+  display: inline-block;
+  width: 150px;
+  margin: 0;
+  padding: 91px 0 0 23px;
+  font: 12px Lato;
+}
+.phone1 { 
+  color: #f0d8d9;
+  padding: 70px 0 0 0;
+}
+.mail {
+  color: #f0d8d9;
+  padding: 96px 0 0 0;
+}
+.location {
+  color: #f0d8d9;
+  padding: 51px 0 0 3px;
+}
+#footer {
+  margin: 0 auto;
+  width: 1020px;
+  height: 76px;
+}
+.footertfon {
+  width: 100%;
+  height: 76px;
+  background: #303441;
+}
+.footer {
+  width: 182px;
+  height: 11px;
+  padding: 23px 0 0 43px;
+}
+#footer1 {
+  float: right;
+  margin: 11px 38px 0 0;
+}
+#footer1 a img {
+  padding-left: 5px;
+}
